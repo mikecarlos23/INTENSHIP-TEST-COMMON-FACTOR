@@ -1,16 +1,16 @@
-// function createCounter(){
-//     var count=0;
-//     setInterval(function(){
-//         count++;
-//         console.log(count);
-//     },5000)
-// }
-// console.log(count)
-// createCounter();
+function createCounter(){
+    var count=0;
+    setInterval(function(){
+        count++;
+        console.log(count);
+    },5000)
+}
+console.log(count)
+createCounter();
 
-// setTimeout(function(){
-//     console.log(count);
-// },5000)
+setTimeout(function(){
+    console.log(count);
+},5000)
 
 
 //1. count is not defined
